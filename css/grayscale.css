@@ -1,0 +1,952 @@
+/*!
+ * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ 
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+*/
+ 
+ 
+ @font-face {
+    font-family: lubalinbold-webfont;
+    src: url('../fonts/lubalinbold-webfont.ttf');
+}
+
+@font-face {
+    font-family: gotham_rounded;
+    src: url('../fonts/gotham_rounded.ttf');
+}
+ 
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "lubalinbold-webfont", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: black;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 35px;
+  text-transform: uppercase;
+  font-family: "lubalinbold-webfont", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+a {
+  color: #42DCA3;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #1d9b6c;
+}
+.light {
+  font-weight: 400;
+}
+
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  font-family: 'gotham_rounded', Helvetica, Arial, sans-serif;
+  
+  
+  background-color: black;
+  font-size: 18px;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 14px;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 1000;
+}
+.navbar-brand {
+  padding: 0px 15px;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.navbar-custom .nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+
+#toy_header {
+	margin-top: 186px; 
+	width: 763px;
+	height: 246px;
+}
+.featured_toys_header {
+  /*height: 300px;*/
+  position: relative;
+}
+#featured_toys_body {
+  /*height: 823px;*/
+  margin-top: 42px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: yellow;
+  width: 1195px;
+  position: relative;
+}
+
+		.toy_vid_list {
+			width: 1000px;
+    		margin: auto auto;
+			border-style: solid;
+  			border-width: 0px;
+  			border-color: yellow;
+		}
+		
+		div#list_one {
+    		float: left;
+    		height: 93px;
+			width: 238px;
+		}
+		
+		div#list_two {
+			float: left;
+    		height: 93px;
+			width: 238px;
+			margin-left: 15px;
+		}
+		
+		div#list_three {
+			float: left;
+    		height: 93px;
+			width: 238px;
+			margin-left: 15px;
+		}
+		
+		div#list_four {
+			float: left;
+    		height: 93px;
+			width: 238px;
+			margin-left: 15px;
+		}
+		
+		.toys {
+			border-style: solid;
+    		border-width: 0px;
+			border-color: white;
+			width: 100%;
+			max-width: 1385px;
+			margin: 0 auto;
+		}
+
+.four_toys_furby {
+    float: left;
+	display: inline-block;
+	margin-left: ;
+	margin-top: 96px;
+	margin-bottom: 67px;
+}
+.four_toys_transformer {
+    float: left;
+	display: inline-block;
+	margin-left: -25px;
+	margin-top: 93px;
+}
+.four_toys_mlp_cheese_sanwich {
+    float: left;
+	display: inline-block;
+	margin-left: -38px;
+	margin-top: 120px;
+}
+.four_toys_mlp_pinkie_pie {
+    float: left;
+	display: inline-block;
+	margin-left: -50px;
+	margin-top: 163px;
+}
+#nav_logo {
+	 margin-top: -92px; 
+}
+
+#hero {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.layer {
+  background-repeat: no-repeat;
+  width: 1800px;
+  height: 234px;
+  position: fixed;
+  z-index: 0;
+}
+
+.layer-bg {
+   
+}
+.layer-01 {
+   background-image: url(../images/home_snow_bg_1.png);
+   margin-top: -270px;
+   margin-left: 15px;
+}
+.layer-02 {
+   background-image: url(../images/home_snow_bg_2.png);
+   margin-top: -230px;
+   margin-left: 15px;
+}
+
+.home_page {
+  	background-image: url(../images/home_bg_village.jpg);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center top;
+	
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1800px;
+	border-style: solid;
+    border-width: 0px;
+	border-color: red;
+}
+
+.home_page_toys {
+  	background-image: url(../images/toys_bg_living_room.jpg);
+	background-repeat: no-repeat;
+	
+	border-style: solid;
+    border-width: 0px;
+	border-color: green;
+	background-position: center top;	
+}
+
+.home_toy_tower {
+	margin-top: 92px; 
+}
+.home_toy_tower_image {
+	width: 450px;
+	height: 826px;
+}
+.home_type_treatment {
+	margin-top: 110px; 
+}
+.home_type_treatment_image {
+	width: 468px;
+	height: 318px; 
+}
+.homepage_type {
+	margin-top: 30px;
+	font-family: "gotham_rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 22px;
+	font-weight: normal;
+}
+
+.game_thumbnail {
+	margin-top: 130px;
+	position: relative;
+	z-index: 1;
+}
+.game_thumbnail_image {
+	width: 234px;
+	height: 156px; 
+}
+
+#home_box_left {
+	margin-left: 60px;
+	width: 620px;
+	border-style: solid;
+    border-width: 0px;
+	border-color: yellow;
+}
+
+#home_box_right {
+	width: 450px;
+	border-style: solid;
+    border-width: 0px;
+	border-color: green;
+	background-color : transparent;
+}
+
+#home_box_bottom {
+	margin-top: 144px;
+	font-size: 9px;
+	color: #00a7d5;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	z-index: 1;
+}
+
+.small_type {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+	font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  	font-size: 24px;
+	font-weight: normal;
+}
+	
+.small_type.big_type{
+  	font-size: 400px;
+	font-weight: 700px;
+}
+
+		.privacy_policy {
+			width: 71px;
+			height: 15px;
+			float: right;
+		}
+	
+		.rules {
+			width: 28px;
+			height: 15px;
+			float: right;
+		}
+	
+		#search_box {	
+			width: 488px;	
+			margin: 33px auto;
+			border-style: solid;
+    		border-width: 0px;
+			border-color: red;	
+			z-index: 1;	
+			position: relative;
+				border-style: solid;
+    border-width: 0px;
+	border-color: yellow;
+		}
+	
+		form input {
+			color: #ffffff;
+			border: 0;
+			font-size: 28px;
+			font-family:lubalinbold-webfont;
+	  		float: left;
+			width: 387px;
+			height: 94px;
+			text-align:center;
+			background-color: #eb008c;
+
+		}
+		form input#submit {
+			color: #000;
+			width: 97px;
+			height: 97px;
+			background: url("../images/hh_home_sweeps_btn.png") no-repeat;
+			cursor: hand; 
+			cursor: pointer;
+		}
+
+		form input#submit:hover { 
+			background: url("../images/hh_home_sweeps_btn_over.png");
+		}
+		.text-footer {
+  			text-align: center; 
+			font-size: 20px;
+  		}
+		.game-container {
+			margin-right: auto;
+  			margin-left: auto;
+			margin-bottom: 35px;
+			width: 745px;			
+  		}
+
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: #00a7d5;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 82px;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro_wishlist {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 80px 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro_toys {
+  display: table;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 0px;
+  padding: 0 0;
+  text-align: center;
+  color: white;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: top;
+  margin: 0 auto;
+}
+.intro .intro-body .brand-heading {
+	background-color: white;
+  font-size: 40px;
+}
+.intro .intro-body .intro-text {
+  font-size: 18px;
+}
+@media (min-width: 768px) {
+  .intro {
+ /*!height: 100%;*/
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+.btn-circle {
+  width: 70px;
+  height: 70px;
+  margin-top: 15px;
+  padding: 7px 16px;
+  border: 2px solid white;
+  border-radius: 100% !important;
+  font-size: 40px;
+  color: white;
+  background: transparent;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+.btn-circle:hover,
+.btn-circle:focus {
+  outline: none;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+}
+.btn-circle i.animated {
+  -webkit-transition-property: -webkit-transform;
+  -webkit-transition-duration: 1s;
+  -moz-transition-property: -moz-transform;
+  -moz-transition-duration: 1s;
+}
+.btn-circle:hover i.animated {
+  -webkit-animation-name: pulse;
+  -moz-animation-name: pulse;
+  -webkit-animation-duration: 1.5s;
+  -moz-animation-duration: 1.5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@-moz-keyframes pulse {
+  0% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -moz-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -moz-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.content-section {
+  padding-top: 100px;
+}
+.download-section {
+  width: 100%;
+  padding: 50px 0;
+  color: white;
+  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#map {
+  width: 100%;
+  height: 200px;
+  margin-top: 100px;
+}
+@media (min-width: 767px) {
+
+  .content-section {
+    padding-top: 0px;
+	height: 1125px;
+  }
+  .download-section {
+    padding: 100px 0;
+  }
+  #map {
+    height: 400px;
+    margin-top: 250px;
+  }
+}
+.btn {
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0;
+}
+.btn-default {
+  border: 1px solid #42DCA3;
+  color: #42DCA3;
+  background-color: transparent;
+}
+.btn-default:hover,
+.btn-default:focus {
+  border: 1px solid #42DCA3;
+  outline: none;
+  color: black;
+  background-color: #42DCA3;
+}
+ul.banner-social-buttons {
+  margin-top: 0;
+}
+
+@media (max-width: 1370px) {
+.toys {
+	border-style: solid;
+    border-width: 0px;
+	border-color: white;
+	width: 100%;
+	margin: 0 auto;
+}
+.four_toys_furby {
+    float: left;
+	margin-left: 100px;
+	display: inline-block;
+	margin-top: 96px;
+	margin-bottom: 67px;
+}
+.four_toys_transformer {
+    float: left;
+	display: inline-block;
+	margin-left: -125px;
+	margin-top: 43px;
+}
+.four_toys_mlp_cheese_sanwich {
+    float: left;
+	display: inline-block;
+	margin-left: -125px;
+	margin-top: 100px;
+}
+.four_toys_mlp_pinkie_pie {
+    float: left;
+	display: inline-block;
+	margin-left: -145px;
+	margin-top: 170px;
+}
+
+}
+
+@media (max-width: 1199px) {
+  ul.banner-social-buttons {
+    margin-top: 15px;
+  }
+  
+  .intro {
+  }
+  
+  .intro_toys {
+  	width: 1000px;
+  }  
+  #home_box_left {
+	margin-left: 0px;
+	width: 100%;
+	border-style: solid;
+    border-width: 0px;
+	border-color: yellow;
+  }
+  #home_box_right {
+	width: 100%;
+	border-style: solid;
+    border-width: 0px;
+	border-color: green;
+  }
+  #featured_toys_body {
+    /*height: 823px;*/
+    margin-top: 42px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: yellow;
+    width: 100%;
+  }
+
+.four_toys_furby {
+    float: left;
+	display: inline-block;
+	margin-left: 0px;
+	margin-top: 116px;
+	margin-bottom: 67px;
+}
+.four_toys_transformer {
+    float: left;
+	display: inline-block;
+	margin-left: -20px;
+	margin-top: 83px;
+}
+.four_toys_mlp_cheese_sanwich {
+    float: left;
+	display: inline-block;
+	margin-left: 0px;
+	margin-top: 120px;
+}
+.four_toys_mlp_pinkie_pie {
+    float: left;
+	display: inline-block;
+	margin-left: -50px;
+	margin-top: 163px;
+}
+#four_toys_furby_img {
+    max-width: 258px;
+    max-height: 293px;
+}
+#four_toys_transformer_img {
+    max-width: 279px;
+    max-height: 251px;
+}
+#four_toys_cheese_img {
+    max-width: 155px;
+    max-height: 184px;
+}
+#four_toys_pinkie_img {
+    max-width: 403px;
+    max-height: 247px;
+}
+#home_box_right {
+	background-color : black;
+}
+.layer-01 {
+   background-image: url(../images/home_snow_bg_1.png);
+   margin-top: -270px;
+   margin-left: 15px;
+   display: none;
+}
+.layer-02 {
+   background-image: url(../images/home_snow_bg_2.png);
+   margin-top: -230px;
+   margin-left: 15px;
+   display: none;
+}
+}
+
+
+
+
+
+
+@media (max-width: 992px) {
+  ul.banner-social-buttons li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons li:last-child {
+    margin-bottom: 0;
+  }
+  
+   .intro {
+  	width: 100%;
+  }
+  
+  .intro_toys {
+  	width: 100%;
+  }  
+  		.toy_vid_list {
+			width: 100%;
+    		margin: auto;
+			overflow: hidden;
+		}
+		
+		div#list_one {
+    		float: none;
+    		height: 93px;
+			display: inline-block;
+    margin: 15px auto 0 15px;
+	
+		}
+		
+		div#list_two {
+			float: none;
+    		height: 93px;
+			display: inline-block;
+    margin: 15px auto 0 15px;
+		}
+		
+		div#list_three {
+			float: none;
+    		height: 93px;
+			display: inline-block;
+    margin: 15px auto 0 15px;
+		}
+		
+		div#list_four {
+			float: none;
+    		height: 93px;
+			display: inline-block;
+    margin: 15px auto 0 15px;
+		}
+
+.four_toys_furby {
+    float: none;
+	display: inline-block;
+	margin-left: 0px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+}
+.four_toys_transformer {
+    float: none;
+	display: inline-block;
+	margin-left: -20px;
+	margin-top: 50px;
+}
+.four_toys_mlp_cheese_sanwich {
+    float: none;
+	display: inline-block;
+	margin-left: 0px;
+	margin-top: 50px;
+}
+.four_toys_mlp_pinkie_pie {
+    float: none;
+	display: inline-block;
+	margin-left: -50px;
+	margin-top: 50px;
+}
+  .four_toys_mlp_pinkie_pie {
+	margin-top: -175px;
+}
+}
+
+
+@media (max-width: 768px) {
+	#toy_header {
+	  margin-top: 120px; 
+	  width: 370px;
+	  height: 119px;
+	}	
+	.home_toy_tower_image {
+	  width: 370px;
+	  height: 679px;
+	}
+	.home_type_treatment_image {
+	  width: 370px;
+	  height: 251px; 
+	}
+	.home_type_treatment {
+	  margin-top: 50px; 
+	}
+	#search_box {	
+	  width: 370px;	
+	  margin: 33px auto;
+	}
+	form input#submit {
+	  margin-left: 133px;
+	}
+	.game_thumbnail {
+	  margin-top: 210px;
+	  margin-bottom: 40px;
+	}
+	.game_thumbnail_image {
+	  width: 150px;
+	  height: 100px; 
+	}
+	.intro {
+  margin-top: -43px;
+}
+#four_toys_furby_img {
+    max-width: 108px;
+    max-height: 122px;
+}
+#four_toys_transformer_img {
+    max-width: 129px;
+    max-height: 116px;
+}
+#four_toys_cheese_img {
+    max-width: 105px;
+    max-height: 124px;
+}
+#four_toys_pinkie_img {
+    max-width: 253px;
+    max-height: 155px;
+}
+.four_toys_furby {
+	margin-top: 120px;
+}
+.four_toys_transformer {
+	margin-top: 120px;
+}
+.four_toys_mlp_cheese_sanwich {
+	margin-top: 120px;
+}
+.four_toys_mlp_pinkie_pie {
+	margin-top: 10px;
+}
+  .intro_toys {
+  	margin-top: -100px;
+  }
+  #home_box_bottom {
+	margin-top: 80px;
+}
+  .text-footer {
+  	text-align: center; 
+	font-size: 16px;
+}
+.intro_wishlist {
+  padding: 50px 0;
+}
+     #cn_lego_wish_list_modal .cn-lego-wishlist-print {
+      width: 230px;
+      margin: 0 30px; 
+	  }
+	  .game-container {
+			width: 100%;			
+  		}
+}
+
+
+
+
+
+footer {
+  padding: 50px 0;
+}
+footer p {
+  margin: 0;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+::selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+

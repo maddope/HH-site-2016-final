@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+
+    <title>Hasbro Holiday</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- Theme CSS -->
+    
+    <link href="css/grayscale.css" rel="stylesheet">
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+		.game_text_header {
+			margin-top: 35px;
+			font-size: 40px;
+			color: #000000;
+  		}
+	
+		.game_text_subheader {
+			margin-top: 0px;
+			margin-bottom: 35px;
+			font-family: "gotham_rounded", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  			font-size: 22px;
+			color: #00a7d5;
+  		}
+	
+		.intro {
+			background-image: url(images/game_bg.jpg);
+			background-repeat: no-repeat;
+			background-position: center top;	
+			width: 100%;
+  		}
+	
+		#phaser-example {
+			border-style: solid;
+    		border-width: 1px;
+			border-color: #333333;	
+  		}		
+	
+		
+		
+	@media (min-width: 768px) {
+	  .game-container {
+	    width: 750px;
+	  }
+	}
+	@media (min-width: 992px) {
+	  .game-container {
+	    width: 800px;
+	  }
+	}
+	@media (min-width: 1200px) {
+	  .game-container {
+	    width: 800px;
+	  }
+	}
+		
+	</style>
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    <i class="nav_logo"><img src="images/nav_hasbro_logo.png"></i> Holiday
+                </a>
+            </div>
+
+<!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="index.html"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html">Sweeps</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#featured_toys">Featured Toys</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="wishlist.html">Wishlist</a>
+                    </li>
+                     <li>
+                        <a class="page-scroll" href="game.html">Toy Rush Game</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+                    <div class="game_text_header">TOY RUSH GAME</div>
+                    <div class="game_text_subheader">Tap to see how many toys can you catch!</div>
+            <div class="game-container" id="phaser-example"></div>
+            
+        </div>
+    </header>
+
+ 
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>© 2016 Hasbro. All Rights Reserved</p>
+        </div>
+    </footer>
+						
+					
+                        
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+    
+    
+	<script type="text/javascript" src="js/phaser.js"></script>
+	<script type="text/javascript" src="js/states/Boot.js"></script>
+	<script type="text/javascript" src="js/states/Preload.js"></script>
+	<script type="text/javascript" src="js/states/Game.js"></script>
+	<script type="text/javascript" src="js/prefabs/Platform.js"></script>
+	<script src="js/main.js"></script>
+
+
+
+</body>
+
+</html>
