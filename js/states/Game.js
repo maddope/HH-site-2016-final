@@ -17,7 +17,7 @@ MrHop.GameState = {
     this.coinsPool.enableBody = true;
     
     //gravity
-    this.game.physics.arcade.gravity.y = 1300;    
+    this.game.physics.arcade.gravity.y = 1500;    
     
     //max jump distance
     this.maxJumpDistance = 130;
@@ -161,7 +161,7 @@ MrHop.GameState = {
     
     //distance from the previous platform
     var minSeparation = 250;
-    var maxSeparation = 450;
+    var maxSeparation = 410;
     data.separation = minSeparation + Math.random() * (maxSeparation - minSeparation);
     
     //y in regards to the previous platform
