@@ -917,6 +917,12 @@ ul.banner-social-buttons {
 	  .game-container {
 			width: 100%;			
   		}
+		form input {
+			font-size: 22px;
+	  		float: left;
+			width: 370px;
+			height: 84px;
+		}
 }
 
 
