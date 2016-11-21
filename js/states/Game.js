@@ -218,8 +218,8 @@ MrHop.GameState = {
       
       this.add.text(this.game.width/2, this.game.height/2 + 80, 'Your score: ' + this.myCoins, style).anchor.setTo(0.5);
       
-      style = {font: '10px gotham_rounded', fill: '#fff'};
-      this.add.text(this.game.width/2, this.game.height/2 + 120, 'Tap to play again', style).anchor.setTo(0.5);
+      style = {font: '25px gotham_rounded', fill: '#fff'};
+      this.add.text(this.game.width/2, this.game.height/2 + 220, 'Tap to play again', style).anchor.setTo(0.5);
       
       this.game.input.onDown.addOnce(this.restart, this);
       
